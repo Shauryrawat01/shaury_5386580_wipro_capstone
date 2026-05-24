@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","26530","Location Search Flow","","2026-05-23","passed","2026-05-23","","","",""
+"","3460","Verify home page elements","","2026-05-23","passed","2026-05-23","","","",""
+"","39347","Property Search Filter Refinement","","2026-05-23","passed","2026-05-23","","","",""
+"","40919","View Number Flow","","2026-05-23","passed","2026-05-23","","","",""
+"","6792","Invalid Location Search","","2026-05-23","passed","2026-05-23","","","",""
+"","8319","Empty Location Search","","2026-05-23","passed","2026-05-23","","","",""
