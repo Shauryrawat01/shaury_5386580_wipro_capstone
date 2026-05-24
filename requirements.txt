@@ -2,4 +2,6 @@ selenium
 pytest
 webdriver-manager
 allure-pytest
+allure-behave
 openpyxl
+behave
