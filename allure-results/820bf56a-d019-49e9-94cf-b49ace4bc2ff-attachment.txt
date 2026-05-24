@@ -1,0 +1,12 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:159 Test Case 5: Invalid Location Search (Negative) Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:160 Step 0: Clicking Projects Tab
+[32mINFO    [0m HomePage:home_page.py:63 Clicking on Projects tab
+[32mINFO    [0m root:test_end_to_end_flow.py:165 Step 1: Entering Invalid Location: InvalidLocation12345
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: InvalidLocation12345
+[32mINFO    [0m root:test_end_to_end_flow.py:168 Step 2: Clicking Search Button
+[32mINFO    [0m HomePage:home_page.py:90 Clicking Search button
+[32mINFO    [0m root:test_end_to_end_flow.py:171 Capturing Negative Search Result Screenshot
+[32mINFO    [0m root:test_end_to_end_flow.py:179 Negative test screenshot saved at: screenshots/negative_test_case/invalid_location_20260524-132513.png
+[32mINFO    [0m SearchResultsPage:search_results_page.py:87 Verifying that no search results are found
+[33mWARNING [0m SearchResultsPage:search_results_page.py:97 Property cards WERE found. Search did not return zero results.
+[32mINFO    [0m root:test_end_to_end_flow.py:183 Test Case 5: Negative Validation Complete - PASSED

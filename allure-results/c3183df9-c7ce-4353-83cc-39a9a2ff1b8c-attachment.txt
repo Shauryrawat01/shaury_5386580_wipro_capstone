@@ -1,0 +1,33 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:21 Test Case 1: Location Search Flow Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:22 Step 1: Clicking Projects Tab
+[32mINFO    [0m HomePage:home_page.py:63 Clicking on Projects tab
+[32mINFO    [0m root:test_end_to_end_flow.py:25 Step 2 & 3: Entering Location: mumbai
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: mumbai
+[32mINFO    [0m root:test_end_to_end_flow.py:28 Step 4: Selecting Location from suggestions
+[32mINFO    [0m HomePage:home_page.py:80 Selecting location from suggestions
+[31m[1mERROR   [0m HomePage:home_page.py:87 No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x59ed9f8c316a <unknown>
+#1 0x59ed9f2c06b9 <unknown>
+#2 0x59ed9f314c0d <unknown>
+#3 0x59ed9f314e51 <unknown>
+#4 0x59ed9f35fb24 <unknown>
+#5 0x59ed9f35ccbf <unknown>
+#6 0x59ed9f308222 <unknown>
+#7 0x59ed9f309011 <unknown>
+#8 0x59ed9f888a0b <unknown>
+#9 0x59ed9f88b92d <unknown>
+#10 0x59ed9f875948 <unknown>
+#11 0x59ed9f88c4c0 <unknown>
+#12 0x59ed9f85c560 <unknown>
+#13 0x59ed9f8afdd8 <unknown>
+#14 0x59ed9f8aff75 <unknown>
+#15 0x59ed9f8c1bce <unknown>
+#16 0x7972c969caa4 <unknown>
+#17 0x7972c9729c6c <unknown>
+
+[32mINFO    [0m root:test_end_to_end_flow.py:31 Step 5: Clicking Search Button
+[32mINFO    [0m HomePage:home_page.py:90 Clicking Search button
+[32mINFO    [0m root:test_end_to_end_flow.py:34 Verifying Results Page Open
+[32mINFO    [0m SearchResultsPage:search_results_page.py:74 Verifying search results visibility
+[32mINFO    [0m SearchResultsPage:search_results_page.py:80 Search results are visible
