@@ -1,0 +1,34 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:113 Test Case 4: Rent Search Flow Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:114 Step 1: Clicking Rent Tab
+[32mINFO    [0m HomePage:home_page.py:57 Clicking on Rent tab
+[32mINFO    [0m root:test_end_to_end_flow.py:117 Step 2 & 3: Entering Location: mumbai
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: mumbai
+[32mINFO    [0m root:test_end_to_end_flow.py:120 Step 4: Selecting Location from suggestions
+[32mINFO    [0m HomePage:home_page.py:80 Selecting location from suggestions
+[1m[31mERROR   [0m HomePage:home_page.py:87 No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x57cec07dc16a <unknown>
+#1 0x57cec01d96b9 <unknown>
+#2 0x57cec022dc0d <unknown>
+#3 0x57cec022de51 <unknown>
+#4 0x57cec0278b24 <unknown>
+#5 0x57cec0275cbf <unknown>
+#6 0x57cec0221222 <unknown>
+#7 0x57cec0222011 <unknown>
+#8 0x57cec07a1a0b <unknown>
+#9 0x57cec07a492d <unknown>
+#10 0x57cec078e948 <unknown>
+#11 0x57cec07a54c0 <unknown>
+#12 0x57cec0775560 <unknown>
+#13 0x57cec07c8dd8 <unknown>
+#14 0x57cec07c8f75 <unknown>
+#15 0x57cec07dabce <unknown>
+#16 0x76fc0149caa4 <unknown>
+#17 0x76fc01529c6c <unknown>
+
+[32mINFO    [0m root:test_end_to_end_flow.py:123 Step 5: Clicking Search Button
+[32mINFO    [0m HomePage:home_page.py:90 Clicking Search button
+[32mINFO    [0m root:test_end_to_end_flow.py:126 Verifying Rental Results Page Open
+[32mINFO    [0m SearchResultsPage:search_results_page.py:69 Verifying search results visibility
+[32mINFO    [0m SearchResultsPage:search_results_page.py:75 Search results are visible
+[32mINFO    [0m root:test_end_to_end_flow.py:128 Test Case 4: PASSED

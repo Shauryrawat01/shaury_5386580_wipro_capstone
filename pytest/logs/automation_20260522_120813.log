@@ -1,0 +1,36 @@
+2026-05-22 12:08:13,668 - ExcelReader - INFO - Loading test data from: /home/shaury-rawat/Videos/99acres_capstone/utilities/../test_data/search_data.xlsx
+2026-05-22 12:08:13,673 - ExcelReader - INFO - Successfully loaded test data: {'mobile_number': '9897777124', 'location': 'mumbai'}
+2026-05-22 12:08:18,557 - root - INFO - Test Case 4: Rent Search Flow Starting
+2026-05-22 12:08:18,557 - root - INFO - Step 1: Clicking Rent Tab
+2026-05-22 12:08:18,557 - HomePage - INFO - Clicking on Rent tab
+2026-05-22 12:08:19,005 - root - INFO - Step 2 & 3: Entering Location: mumbai
+2026-05-22 12:08:19,006 - HomePage - INFO - Entering location: mumbai
+2026-05-22 12:08:21,570 - root - INFO - Step 4: Selecting Location from suggestions
+2026-05-22 12:08:21,570 - HomePage - INFO - Selecting location from suggestions
+2026-05-22 12:08:42,148 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x5db375f0b16a <unknown>
+#1 0x5db3759086b9 <unknown>
+#2 0x5db37595cc0d <unknown>
+#3 0x5db37595ce51 <unknown>
+#4 0x5db3759a7b24 <unknown>
+#5 0x5db3759a4cbf <unknown>
+#6 0x5db375950222 <unknown>
+#7 0x5db375951011 <unknown>
+#8 0x5db375ed0a0b <unknown>
+#9 0x5db375ed392d <unknown>
+#10 0x5db375ebd948 <unknown>
+#11 0x5db375ed44c0 <unknown>
+#12 0x5db375ea4560 <unknown>
+#13 0x5db375ef7dd8 <unknown>
+#14 0x5db375ef7f75 <unknown>
+#15 0x5db375f09bce <unknown>
+#16 0x7abd5769caa4 <unknown>
+#17 0x7abd57729c6c <unknown>
+
+2026-05-22 12:08:42,148 - root - INFO - Step 5: Clicking Search Button
+2026-05-22 12:08:42,149 - HomePage - INFO - Clicking Search button
+2026-05-22 12:08:42,484 - root - INFO - Verifying Rental Results Page Open
+2026-05-22 12:08:42,484 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:08:42,521 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:08:42,521 - root - INFO - Test Case 4: PASSED

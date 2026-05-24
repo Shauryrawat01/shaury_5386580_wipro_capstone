@@ -1,0 +1,112 @@
+2026-05-22 12:15:13,645 - ExcelReader - INFO - Loading test data from: /home/shaury-rawat/Videos/99acres_capstone/utilities/../test_data/search_data.xlsx
+2026-05-22 12:15:13,650 - ExcelReader - INFO - Successfully loaded test data: {'mobile_number': '9897777124', 'location': 'mumbai'}
+2026-05-22 12:15:17,498 - root - INFO - Test Case 1: Location Search Flow Starting
+2026-05-22 12:15:17,499 - root - INFO - Step 1: Clicking Projects Tab
+2026-05-22 12:15:17,499 - HomePage - INFO - Clicking on Projects tab
+2026-05-22 12:15:17,825 - root - INFO - Step 2 & 3: Entering Location: mumbai
+2026-05-22 12:15:17,825 - HomePage - INFO - Entering location: mumbai
+2026-05-22 12:15:20,402 - root - INFO - Step 4: Selecting Location from suggestions
+2026-05-22 12:15:20,402 - HomePage - INFO - Selecting location from suggestions
+2026-05-22 12:15:40,963 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x57cec07dc16a <unknown>
+#1 0x57cec01d96b9 <unknown>
+#2 0x57cec022dc0d <unknown>
+#3 0x57cec022de51 <unknown>
+#4 0x57cec0278b24 <unknown>
+#5 0x57cec0275cbf <unknown>
+#6 0x57cec0221222 <unknown>
+#7 0x57cec0222011 <unknown>
+#8 0x57cec07a1a0b <unknown>
+#9 0x57cec07a492d <unknown>
+#10 0x57cec078e948 <unknown>
+#11 0x57cec07a54c0 <unknown>
+#12 0x57cec0775560 <unknown>
+#13 0x57cec07c8dd8 <unknown>
+#14 0x57cec07c8f75 <unknown>
+#15 0x57cec07dabce <unknown>
+#16 0x76fc0149caa4 <unknown>
+#17 0x76fc01529c6c <unknown>
+
+2026-05-22 12:15:40,963 - root - INFO - Step 5: Clicking Search Button
+2026-05-22 12:15:40,963 - HomePage - INFO - Clicking Search button
+2026-05-22 12:15:41,405 - root - INFO - Verifying Results Page Open
+2026-05-22 12:15:41,406 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:15:41,435 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:15:41,435 - root - INFO - Test Case 1: PASSED
+2026-05-22 12:15:41,438 - root - INFO - Test Case 2: Property Search Flow Starting
+2026-05-22 12:15:43,438 - root - INFO - Step 2: Waiting for property listings to be visible
+2026-05-22 12:15:43,439 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:15:45,810 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:15:45,810 - root - INFO - Step 3: Applying filters (3 BHK, 2036)
+2026-05-22 12:15:45,810 - SearchResultsPage - INFO - Applying 3 BHK filter
+2026-05-22 12:15:51,083 - SearchResultsPage - INFO - Applying 2036 filter
+2026-05-22 12:15:56,229 - root - INFO - Step 4: Checking if property card is visible
+2026-05-22 12:15:56,229 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:15:56,241 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:15:56,241 - root - INFO - Test Case 2: PASSED
+2026-05-22 12:15:56,243 - root - INFO - Test Case 3: View Number Flow Starting
+2026-05-22 12:15:58,244 - root - INFO - Step 1: Opening required property (clicking third result)
+2026-05-22 12:15:58,244 - SearchResultsPage - INFO - Clicking on the third property result
+2026-05-22 12:16:01,317 - SearchResultsPage - INFO - Switching to the newly opened tab
+2026-05-22 12:16:01,325 - root - INFO - Step 2 & 3: Finding and Clicking 'View Number' button
+2026-05-22 12:16:01,325 - SearchResultsPage - INFO - Clicking 'OK, Got it' button
+2026-05-22 12:16:06,834 - SearchResultsPage - INFO - Successfully clicked 'OK, Got it'
+2026-05-22 12:16:06,835 - SearchResultsPage - INFO - Clicking on 'View Number' button
+2026-05-22 12:16:06,897 - root - INFO - Step 4: Waiting for contact details popup
+2026-05-22 12:16:06,897 - SearchResultsPage - INFO - Verifying if contact details popup is visible
+2026-05-22 12:16:06,916 - SearchResultsPage - INFO - Contact details popup is visible
+2026-05-22 12:16:06,917 - root - INFO - Step 5: Capturing final result screenshot
+2026-05-22 12:16:07,372 - root - INFO - Screenshot saved successfully at: screenshots/result_screenshots/view_number/view_number_result_20260522-121606.png
+2026-05-22 12:16:07,372 - root - INFO - Test Case 3: PASSED
+2026-05-22 12:16:09,487 - root - INFO - Test Case 4: Rent Search Flow Starting
+2026-05-22 12:16:09,488 - root - INFO - Step 1: Clicking Rent Tab
+2026-05-22 12:16:09,489 - HomePage - INFO - Clicking on Rent tab
+2026-05-22 12:16:10,109 - root - INFO - Step 2 & 3: Entering Location: mumbai
+2026-05-22 12:16:10,110 - HomePage - INFO - Entering location: mumbai
+2026-05-22 12:16:12,745 - root - INFO - Step 4: Selecting Location from suggestions
+2026-05-22 12:16:12,745 - HomePage - INFO - Selecting location from suggestions
+2026-05-22 12:16:33,379 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x57cec07dc16a <unknown>
+#1 0x57cec01d96b9 <unknown>
+#2 0x57cec022dc0d <unknown>
+#3 0x57cec022de51 <unknown>
+#4 0x57cec0278b24 <unknown>
+#5 0x57cec0275cbf <unknown>
+#6 0x57cec0221222 <unknown>
+#7 0x57cec0222011 <unknown>
+#8 0x57cec07a1a0b <unknown>
+#9 0x57cec07a492d <unknown>
+#10 0x57cec078e948 <unknown>
+#11 0x57cec07a54c0 <unknown>
+#12 0x57cec0775560 <unknown>
+#13 0x57cec07c8dd8 <unknown>
+#14 0x57cec07c8f75 <unknown>
+#15 0x57cec07dabce <unknown>
+#16 0x76fc0149caa4 <unknown>
+#17 0x76fc01529c6c <unknown>
+
+2026-05-22 12:16:33,379 - root - INFO - Step 5: Clicking Search Button
+2026-05-22 12:16:33,379 - HomePage - INFO - Clicking Search button
+2026-05-22 12:16:33,483 - root - INFO - Verifying Rental Results Page Open
+2026-05-22 12:16:33,484 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:16:33,500 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:16:33,501 - root - INFO - Test Case 4: PASSED
+2026-05-22 12:16:36,387 - root - INFO - Test Case 5: Invalid Location Search (Negative) Starting
+2026-05-22 12:16:36,389 - root - INFO - Step 1: Entering Invalid Location: InvalidLocation12345
+2026-05-22 12:16:36,390 - HomePage - INFO - Entering location: InvalidLocation12345
+2026-05-22 12:16:59,545 - root - INFO - Test Case 6: Empty Location Search (Negative) Starting
+2026-05-22 12:16:59,546 - root - INFO - Step 1: Clearing Search Box and Clicking Search
+2026-05-22 12:16:59,546 - HomePage - INFO - Entering location: 
+2026-05-22 12:17:02,064 - HomePage - INFO - Clicking Search button
+2026-05-22 12:17:02,380 - root - INFO - Verifying Search did not proceed to results
+2026-05-22 12:17:02,381 - SearchResultsPage - INFO - Verifying that no search results are found
+2026-05-22 12:17:02,423 - SearchResultsPage - WARNING - Property cards WERE found. Search did not return zero results.
+2026-05-22 12:17:07,938 - TestHomePage - INFO - Starting homepage validation test
+2026-05-22 12:17:07,939 - TestHomePage - INFO - Verifying page title
+2026-05-22 12:17:07,981 - TestHomePage - INFO - Page title is: India Real Estate Property Site - Buy Sell Rent Properties Portal - 99acres.com
+2026-05-22 12:17:07,981 - TestHomePage - INFO - Verifying Buy tab is displayed
+2026-05-22 12:17:08,047 - TestHomePage - INFO - Verifying Search box is displayed
+2026-05-22 12:17:08,130 - TestHomePage - INFO - Verifying Search button is displayed
+2026-05-22 12:17:08,172 - TestHomePage - INFO - Homepage elements validated successfully

@@ -1,0 +1,11 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:173 Test Case 6: Empty Location Search (Negative) Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:174 Step 0: Clicking Projects Tab
+[32mINFO    [0m HomePage:home_page.py:63 Clicking on Projects tab
+[32mINFO    [0m root:test_end_to_end_flow.py:177 Step 1: Clearing Search Box and Clicking Search
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: 
+[32mINFO    [0m HomePage:home_page.py:90 Clicking Search button
+[32mINFO    [0m root:test_end_to_end_flow.py:181 Capturing Negative Search Result Screenshot
+[32mINFO    [0m root:test_end_to_end_flow.py:188 Negative test screenshot saved at: screenshots/negative_test_case/empty_location_20260523-104040.png
+[32mINFO    [0m SearchResultsPage:search_results_page.py:87 Verifying that no search results are found
+[33mWARNING [0m SearchResultsPage:search_results_page.py:97 Property cards WERE found. Search did not return zero results.
+[32mINFO    [0m root:test_end_to_end_flow.py:192 Test Case 6: Negative Validation Complete - PASSED

@@ -1,0 +1,95 @@
+2026-05-22 12:09:25,491 - ExcelReader - INFO - Loading test data from: /home/shaury-rawat/Videos/99acres_capstone/utilities/../test_data/search_data.xlsx
+2026-05-22 12:09:25,494 - ExcelReader - INFO - Successfully loaded test data: {'mobile_number': '9897777124', 'location': 'mumbai'}
+2026-05-22 12:09:28,185 - root - INFO - Test Case 1: Location Search Flow Starting
+2026-05-22 12:09:28,185 - root - INFO - Step 1: Clicking Projects Tab
+2026-05-22 12:09:28,186 - HomePage - INFO - Clicking on Projects tab
+2026-05-22 12:09:28,756 - root - INFO - Step 2 & 3: Entering Location: mumbai
+2026-05-22 12:09:28,756 - HomePage - INFO - Entering location: mumbai
+2026-05-22 12:09:31,228 - root - INFO - Step 4: Selecting Location from suggestions
+2026-05-22 12:09:31,229 - HomePage - INFO - Selecting location from suggestions
+2026-05-22 12:09:51,813 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x5dc974bf016a <unknown>
+#1 0x5dc9745ed6b9 <unknown>
+#2 0x5dc974641c0d <unknown>
+#3 0x5dc974641e51 <unknown>
+#4 0x5dc97468cb24 <unknown>
+#5 0x5dc974689cbf <unknown>
+#6 0x5dc974635222 <unknown>
+#7 0x5dc974636011 <unknown>
+#8 0x5dc974bb5a0b <unknown>
+#9 0x5dc974bb892d <unknown>
+#10 0x5dc974ba2948 <unknown>
+#11 0x5dc974bb94c0 <unknown>
+#12 0x5dc974b89560 <unknown>
+#13 0x5dc974bdcdd8 <unknown>
+#14 0x5dc974bdcf75 <unknown>
+#15 0x5dc974beebce <unknown>
+#16 0x7b1167e9caa4 <unknown>
+#17 0x7b1167f29c6c <unknown>
+
+2026-05-22 12:09:51,814 - root - INFO - Step 5: Clicking Search Button
+2026-05-22 12:09:51,814 - HomePage - INFO - Clicking Search button
+2026-05-22 12:09:52,209 - root - INFO - Verifying Results Page Open
+2026-05-22 12:09:52,209 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:09:52,232 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:09:52,232 - root - INFO - Test Case 1: PASSED
+2026-05-22 12:09:52,234 - root - INFO - Test Case 2: Property Search Flow Starting
+2026-05-22 12:09:54,235 - root - INFO - Step 2: Waiting for property listings to be visible
+2026-05-22 12:09:54,235 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:09:54,929 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:09:54,929 - root - INFO - Step 3: Applying filters (3 BHK, 2036)
+2026-05-22 12:09:54,930 - SearchResultsPage - INFO - Applying 3 BHK filter
+2026-05-22 12:10:00,230 - SearchResultsPage - INFO - Applying 2036 filter
+2026-05-22 12:10:05,364 - root - INFO - Step 4: Checking if property card is visible
+2026-05-22 12:10:05,364 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:10:05,375 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:10:05,375 - root - INFO - Test Case 2: PASSED
+2026-05-22 12:10:05,378 - root - INFO - Test Case 3: View Number Flow Starting
+2026-05-22 12:10:07,378 - root - INFO - Step 1: Opening required property (clicking third result)
+2026-05-22 12:10:07,379 - SearchResultsPage - INFO - Clicking on the third property result
+2026-05-22 12:10:10,501 - SearchResultsPage - INFO - Switching to the newly opened tab
+2026-05-22 12:10:10,522 - root - INFO - Step 2 & 3: Finding and Clicking 'View Number' button
+2026-05-22 12:10:10,523 - SearchResultsPage - INFO - Clicking 'OK, Got it' button
+2026-05-22 12:10:15,599 - SearchResultsPage - INFO - Successfully clicked 'OK, Got it'
+2026-05-22 12:10:15,599 - SearchResultsPage - INFO - Clicking on 'View Number' button
+2026-05-22 12:10:15,715 - root - INFO - Step 4: Waiting for contact details popup
+2026-05-22 12:10:15,716 - SearchResultsPage - INFO - Verifying if contact details popup is visible
+2026-05-22 12:10:15,999 - SearchResultsPage - INFO - Contact details popup is visible
+2026-05-22 12:10:16,000 - root - INFO - Step 5: Capturing final result screenshot
+2026-05-22 12:10:16,861 - root - INFO - Screenshot saved successfully at: screenshots/result_screenshots/view_number/view_number_result_20260522-121015.png
+2026-05-22 12:10:16,864 - root - INFO - Test Case 3: PASSED
+2026-05-22 12:10:18,544 - root - INFO - Test Case 4: Rent Search Flow Starting
+2026-05-22 12:10:18,544 - root - INFO - Step 1: Clicking Rent Tab
+2026-05-22 12:10:18,545 - HomePage - INFO - Clicking on Rent tab
+2026-05-22 12:10:19,125 - root - INFO - Step 2 & 3: Entering Location: mumbai
+2026-05-22 12:10:19,125 - HomePage - INFO - Entering location: mumbai
+2026-05-22 12:10:21,589 - root - INFO - Step 4: Selecting Location from suggestions
+2026-05-22 12:10:21,590 - HomePage - INFO - Selecting location from suggestions
+2026-05-22 12:10:42,192 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x5dc974bf016a <unknown>
+#1 0x5dc9745ed6b9 <unknown>
+#2 0x5dc974641c0d <unknown>
+#3 0x5dc974641e51 <unknown>
+#4 0x5dc97468cb24 <unknown>
+#5 0x5dc974689cbf <unknown>
+#6 0x5dc974635222 <unknown>
+#7 0x5dc974636011 <unknown>
+#8 0x5dc974bb5a0b <unknown>
+#9 0x5dc974bb892d <unknown>
+#10 0x5dc974ba2948 <unknown>
+#11 0x5dc974bb94c0 <unknown>
+#12 0x5dc974b89560 <unknown>
+#13 0x5dc974bdcdd8 <unknown>
+#14 0x5dc974bdcf75 <unknown>
+#15 0x5dc974beebce <unknown>
+#16 0x7b1167e9caa4 <unknown>
+#17 0x7b1167f29c6c <unknown>
+
+2026-05-22 12:10:42,193 - root - INFO - Step 5: Clicking Search Button
+2026-05-22 12:10:42,193 - HomePage - INFO - Clicking Search button
+2026-05-22 12:10:42,338 - root - INFO - Verifying Rental Results Page Open
+2026-05-22 12:10:42,339 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 12:10:42,356 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 12:10:42,356 - root - INFO - Test Case 4: PASSED

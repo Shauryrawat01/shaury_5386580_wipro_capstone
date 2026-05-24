@@ -1,0 +1,3 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:142 Test Case 5: Invalid Location Search (Negative) Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:145 Step 1: Entering Invalid Location: InvalidLocation12345
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: InvalidLocation12345

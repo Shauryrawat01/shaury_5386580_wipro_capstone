@@ -1,0 +1,7 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:168 Test Case 6: Empty Location Search (Negative) Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:170 Step 1: Clearing Search Box and Clicking Search
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: 
+[32mINFO    [0m HomePage:home_page.py:90 Clicking Search button
+[32mINFO    [0m root:test_end_to_end_flow.py:174 Verifying Search did not proceed to results
+[32mINFO    [0m SearchResultsPage:search_results_page.py:82 Verifying that no search results are found
+[33mWARNING [0m SearchResultsPage:search_results_page.py:93 Property cards were found! Search failed to return zero results.

@@ -1,0 +1,122 @@
+2026-05-23 10:35:52,640 - ExcelReader - INFO - Loading test data from: /home/shaury-rawat/Videos/99acres_capstone/utilities/../test_data/search_data.xlsx
+2026-05-23 10:35:52,650 - ExcelReader - INFO - Successfully loaded test data: {'mobile_number': '9897777124', 'location': 'mumbai'}
+2026-05-23 10:35:57,705 - root - INFO - Test Case 1: Location Search Flow Starting
+2026-05-23 10:35:57,706 - root - INFO - Step 1: Clicking Projects Tab
+2026-05-23 10:35:57,707 - HomePage - INFO - Clicking on Projects tab
+2026-05-23 10:36:00,055 - root - INFO - Step 2 & 3: Entering Location: mumbai
+2026-05-23 10:36:00,055 - HomePage - INFO - Entering location: mumbai
+2026-05-23 10:36:06,209 - root - INFO - Step 4: Selecting Location from suggestions
+2026-05-23 10:36:06,210 - HomePage - INFO - Selecting location from suggestions
+2026-05-23 10:36:26,853 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x57637817716a <unknown>
+#1 0x576377b746b9 <unknown>
+#2 0x576377bc8c0d <unknown>
+#3 0x576377bc8e51 <unknown>
+#4 0x576377c13b24 <unknown>
+#5 0x576377c10cbf <unknown>
+#6 0x576377bbc222 <unknown>
+#7 0x576377bbd011 <unknown>
+#8 0x57637813ca0b <unknown>
+#9 0x57637813f92d <unknown>
+#10 0x576378129948 <unknown>
+#11 0x5763781404c0 <unknown>
+#12 0x576378110560 <unknown>
+#13 0x576378163dd8 <unknown>
+#14 0x576378163f75 <unknown>
+#15 0x576378175bce <unknown>
+#16 0x7817e389caa4 <unknown>
+#17 0x7817e3929c6c <unknown>
+
+2026-05-23 10:36:26,853 - root - INFO - Step 5: Clicking Search Button
+2026-05-23 10:36:26,854 - HomePage - INFO - Clicking Search button
+2026-05-23 10:36:28,015 - root - INFO - Verifying Results Page Open
+2026-05-23 10:36:28,016 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-23 10:36:31,418 - SearchResultsPage - INFO - Search results are visible
+2026-05-23 10:36:31,418 - root - INFO - Test Case 1: PASSED
+2026-05-23 10:36:31,426 - root - INFO - Test Case 2: Property Search Flow Starting
+2026-05-23 10:36:33,427 - root - INFO - Step 2: Waiting for property listings to be visible
+2026-05-23 10:36:33,428 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-23 10:36:34,192 - SearchResultsPage - INFO - Search results are visible
+2026-05-23 10:36:34,194 - root - INFO - Step 3: Applying filters (3 BHK, 2036)
+2026-05-23 10:36:34,194 - SearchResultsPage - INFO - Applying 3 BHK filter
+2026-05-23 10:36:39,888 - SearchResultsPage - INFO - Applying 2036 filter
+2026-05-23 10:36:45,382 - root - INFO - Step 4: Checking if property card is visible
+2026-05-23 10:36:45,382 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-23 10:36:45,403 - SearchResultsPage - INFO - Search results are visible
+2026-05-23 10:36:45,403 - root - INFO - Test Case 2: PASSED
+2026-05-23 10:36:45,407 - root - INFO - Test Case 3: View Number Flow Starting
+2026-05-23 10:36:47,408 - root - INFO - Step 1: Opening required property (clicking third result)
+2026-05-23 10:36:47,408 - SearchResultsPage - INFO - Clicking on the third property result
+2026-05-23 10:36:50,556 - SearchResultsPage - INFO - Switching to the newly opened tab
+2026-05-23 10:36:50,577 - root - INFO - Step 2 & 3: Finding and Clicking 'View Number' button
+2026-05-23 10:36:50,577 - SearchResultsPage - INFO - Clicking 'OK, Got it' button
+2026-05-23 10:36:56,847 - SearchResultsPage - INFO - Successfully clicked 'OK, Got it'
+2026-05-23 10:36:56,850 - SearchResultsPage - INFO - Clicking on 'View Number' button
+2026-05-23 10:36:57,281 - root - INFO - Step 4: Waiting for contact details popup
+2026-05-23 10:36:57,285 - SearchResultsPage - INFO - Verifying if contact details popup is visible
+2026-05-23 10:36:57,925 - SearchResultsPage - INFO - Contact details popup is visible
+2026-05-23 10:36:57,934 - root - INFO - Step 5: Capturing final result screenshot
+2026-05-23 10:36:59,728 - root - INFO - Screenshot saved successfully at: screenshots/result_screenshots/view_number/view_number_result_20260523-103657.png
+2026-05-23 10:36:59,728 - root - INFO - Test Case 3: PASSED
+2026-05-23 10:37:01,781 - root - INFO - Test Case 4: Project Filter Refinement Starting
+2026-05-23 10:37:01,782 - HomePage - INFO - Clicking on Projects tab
+2026-05-23 10:37:02,515 - HomePage - INFO - Entering location: mumbai
+2026-05-23 10:37:05,087 - HomePage - INFO - Selecting location from suggestions
+2026-05-23 10:37:25,652 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x57637817716a <unknown>
+#1 0x576377b746b9 <unknown>
+#2 0x576377bc8c0d <unknown>
+#3 0x576377bc8e51 <unknown>
+#4 0x576377c13b24 <unknown>
+#5 0x576377c10cbf <unknown>
+#6 0x576377bbc222 <unknown>
+#7 0x576377bbd011 <unknown>
+#8 0x57637813ca0b <unknown>
+#9 0x57637813f92d <unknown>
+#10 0x576378129948 <unknown>
+#11 0x5763781404c0 <unknown>
+#12 0x576378110560 <unknown>
+#13 0x576378163dd8 <unknown>
+#14 0x576378163f75 <unknown>
+#15 0x576378175bce <unknown>
+#16 0x7817e389caa4 <unknown>
+#17 0x7817e3929c6c <unknown>
+
+2026-05-23 10:37:25,653 - HomePage - INFO - Clicking Search button
+2026-05-23 10:37:25,948 - root - INFO - Step 1: Applying 3 BHK filter
+2026-05-23 10:37:25,948 - SearchResultsPage - INFO - Applying 3 BHK filter
+2026-05-23 10:37:31,256 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-23 10:37:31,521 - SearchResultsPage - INFO - Search results are visible
+2026-05-23 10:37:31,521 - root - INFO - Test Case 4: PASSED
+2026-05-23 10:37:33,393 - root - INFO - Test Case 5: Invalid Location Search (Negative) Starting
+2026-05-23 10:37:33,395 - root - INFO - Step 0: Clicking Projects Tab
+2026-05-23 10:37:33,395 - HomePage - INFO - Clicking on Projects tab
+2026-05-23 10:37:34,110 - root - INFO - Step 1: Entering Invalid Location: InvalidLocation12345
+2026-05-23 10:37:34,111 - HomePage - INFO - Entering location: InvalidLocation12345
+2026-05-23 10:37:37,137 - root - INFO - Step 2: Clicking Search Button
+2026-05-23 10:37:37,138 - HomePage - INFO - Clicking Search button
+2026-05-23 10:37:37,462 - root - INFO - Capturing Negative Search Result Screenshot
+2026-05-23 10:37:39,463 - root - INFO - Negative test screenshot saved at: screenshots/negative_test_case/invalid_location_20260523-103737.png
+2026-05-23 10:37:39,464 - SearchResultsPage - INFO - Verifying that no search results are found
+2026-05-23 10:37:39,513 - SearchResultsPage - WARNING - Property cards WERE found. Search did not return zero results.
+2026-05-23 10:37:39,513 - root - INFO - Test Case 5: Negative Validation Complete - PASSED
+2026-05-23 10:37:42,375 - root - INFO - Test Case 6: Empty Location Search (Negative) Starting
+2026-05-23 10:37:42,375 - root - INFO - Step 0: Clicking Projects Tab
+2026-05-23 10:37:42,376 - HomePage - INFO - Clicking on Projects tab
+2026-05-23 10:37:46,625 - root - INFO - Step 1: Clearing Search Box and Clicking Search
+2026-05-23 10:37:46,626 - HomePage - INFO - Entering location: 
+2026-05-23 10:37:49,480 - HomePage - INFO - Clicking Search button
+2026-05-23 10:37:50,307 - root - INFO - Capturing Negative Search Result Screenshot
+2026-05-23 10:37:51,103 - root - INFO - Negative test screenshot saved at: screenshots/negative_test_case/empty_location_20260523-103750.png
+2026-05-23 10:37:51,103 - SearchResultsPage - INFO - Verifying that no search results are found
+2026-05-23 10:37:51,199 - SearchResultsPage - WARNING - Property cards WERE found. Search did not return zero results.
+2026-05-23 10:37:51,199 - root - INFO - Test Case 6: Negative Validation Complete - PASSED
+2026-05-23 10:37:57,085 - TestHomePage - INFO - Starting homepage validation test
+2026-05-23 10:37:57,102 - TestHomePage - INFO - Verifying page title
+2026-05-23 10:37:58,710 - TestHomePage - INFO - Page title is: India Real Estate Property Site - Buy Sell Rent Properties Portal - 99acres.com
+2026-05-23 10:37:58,715 - TestHomePage - INFO - Verifying Projects tab is displayed
+2026-05-23 10:37:58,832 - TestHomePage - INFO - Verifying Search box is displayed
+2026-05-23 10:37:58,954 - TestHomePage - INFO - Verifying Search button is displayed
+2026-05-23 10:37:59,261 - TestHomePage - INFO - Homepage elements validated successfully

@@ -1,0 +1,53 @@
+2026-05-22 13:16:51,284 - ExcelReader - INFO - Loading test data from: /home/shaury-rawat/Videos/99acres_capstone/utilities/../test_data/search_data.xlsx
+2026-05-22 13:16:51,295 - ExcelReader - INFO - Successfully loaded test data: {'mobile_number': '9897777124', 'location': 'mumbai'}
+2026-05-22 13:17:02,334 - root - INFO - Test Case 1: Location Search Flow Starting
+2026-05-22 13:17:02,335 - root - INFO - Step 1: Clicking Projects Tab
+2026-05-22 13:17:02,335 - HomePage - INFO - Clicking on Projects tab
+2026-05-22 13:17:03,733 - root - INFO - Step 2 & 3: Entering Location: mumbai
+2026-05-22 13:17:03,734 - HomePage - INFO - Entering location: mumbai
+2026-05-22 13:17:06,531 - root - INFO - Step 4: Selecting Location from suggestions
+2026-05-22 13:17:06,532 - HomePage - INFO - Selecting location from suggestions
+2026-05-22 13:17:27,177 - HomePage - ERROR - No suggestion found or already selected: Message: 
+Stacktrace:
+#0 0x6488be37916a <unknown>
+#1 0x6488bdd766b9 <unknown>
+#2 0x6488bddcac0d <unknown>
+#3 0x6488bddcae51 <unknown>
+#4 0x6488bde15b24 <unknown>
+#5 0x6488bde12cbf <unknown>
+#6 0x6488bddbe222 <unknown>
+#7 0x6488bddbf011 <unknown>
+#8 0x6488be33ea0b <unknown>
+#9 0x6488be34192d <unknown>
+#10 0x6488be32b948 <unknown>
+#11 0x6488be3424c0 <unknown>
+#12 0x6488be312560 <unknown>
+#13 0x6488be365dd8 <unknown>
+#14 0x6488be365f75 <unknown>
+#15 0x6488be377bce <unknown>
+#16 0x7dc50dc9caa4 <unknown>
+#17 0x7dc50dd29c6c <unknown>
+
+2026-05-22 13:17:27,177 - root - INFO - Step 5: Clicking Search Button
+2026-05-22 13:17:27,178 - HomePage - INFO - Clicking Search button
+2026-05-22 13:17:28,001 - root - INFO - Verifying Results Page Open
+2026-05-22 13:17:28,002 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 13:17:32,152 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 13:17:32,158 - root - INFO - Test Case 1: PASSED
+2026-05-22 13:17:32,183 - root - INFO - Test Case 2: Property Search Flow Starting
+2026-05-22 13:17:34,184 - root - INFO - Step 2: Waiting for property listings to be visible
+2026-05-22 13:17:34,184 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 13:17:35,106 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 13:17:35,107 - root - INFO - Step 3: Applying filters (3 BHK, 2036)
+2026-05-22 13:17:35,107 - SearchResultsPage - INFO - Applying 3 BHK filter
+2026-05-22 13:17:40,821 - SearchResultsPage - INFO - Applying 2036 filter
+2026-05-22 13:17:46,130 - root - INFO - Step 4: Checking if property card is visible
+2026-05-22 13:17:46,131 - SearchResultsPage - INFO - Verifying search results visibility
+2026-05-22 13:17:46,180 - SearchResultsPage - INFO - Search results are visible
+2026-05-22 13:17:46,180 - root - INFO - Test Case 2: PASSED
+2026-05-22 13:17:46,193 - root - INFO - Test Case 3: View Number Flow Starting
+2026-05-22 13:17:48,194 - root - INFO - Step 1: Opening required property (clicking third result)
+2026-05-22 13:17:48,194 - SearchResultsPage - INFO - Clicking on the third property result
+2026-05-22 13:17:56,818 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48303): Failed to establish a new connection: [Errno 111] Connection refused")': /session/58eec565f2fd4eaf4b527c614776ad3c
+2026-05-22 13:17:56,819 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48303): Failed to establish a new connection: [Errno 111] Connection refused")': /session/58eec565f2fd4eaf4b527c614776ad3c
+2026-05-22 13:17:56,820 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48303): Failed to establish a new connection: [Errno 111] Connection refused")': /session/58eec565f2fd4eaf4b527c614776ad3c

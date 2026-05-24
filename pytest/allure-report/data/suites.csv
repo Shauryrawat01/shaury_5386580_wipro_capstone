@@ -1,0 +1,26 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+    Test Case 6: Negative - Empty Location Search
+    Expected Result: Application should handle empty search gracefully.
+    ","4873","test_case_6_empty_location_search","tests","2026-05-22","failed","2026-05-22","","test_end_to_end_flow","",""
+"","234","test_homepage_elements","tests","2026-05-22","passed","2026-05-22","","test_home_page","",""
+"
+    Test Case 4: Rent Search Flow
+    Expected Result: Results page for rental properties opens successfully.
+    ","26125","test_case_4_rent_search_flow","tests","2026-05-22","passed","2026-05-22","","test_end_to_end_flow","",""
+"
+    Test Case 5: Negative - Invalid Location Search
+    Expected Result: Application should not show valid property results.
+    ","23501","test_case_5_invalid_location_search","tests","2026-05-22","broken","2026-05-22","","test_end_to_end_flow","",""
+"
+    Test Case 2: Property Search Flow
+    Expected Result: Required property/project visible ho jata hai.
+    ","14804","test_case_2_property_search_flow","tests","2026-05-22","passed","2026-05-22","","test_end_to_end_flow","",""
+"
+    Test Case 1: Location Search Flow
+    Expected Result: Results page open ho jata hai.
+    ","23938","test_case_1_location_search_flow","tests","2026-05-22","passed","2026-05-22","","test_end_to_end_flow","",""
+"
+    Test Case 3: View Number Flow
+    Expected Result: Screenshot successfully save ho jata hai.
+    ","11129","test_case_3_view_number_flow","tests","2026-05-22","passed","2026-05-22","","test_end_to_end_flow","",""

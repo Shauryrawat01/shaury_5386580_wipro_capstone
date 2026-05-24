@@ -1,0 +1,11 @@
+2026-05-22 12:11:15,227 - ExcelReader - INFO - Loading test data from: /home/shaury-rawat/Videos/99acres_capstone/utilities/../test_data/search_data.xlsx
+2026-05-22 12:11:15,232 - ExcelReader - INFO - Successfully loaded test data: {'mobile_number': '9897777124', 'location': 'mumbai'}
+2026-05-22 12:11:19,364 - root - INFO - Test Case 5: Invalid Location Search (Negative) Starting
+2026-05-22 12:11:19,365 - root - INFO - Step 1: Entering Invalid Location: InvalidLocation12345
+2026-05-22 12:11:19,365 - HomePage - INFO - Entering location: InvalidLocation12345
+2026-05-22 12:11:22,952 - root - INFO - Step 2: Clicking Search Button
+2026-05-22 12:11:22,953 - HomePage - INFO - Clicking Search button
+2026-05-22 12:11:23,493 - root - INFO - Verifying No Results Found
+2026-05-22 12:11:23,493 - SearchResultsPage - INFO - Verifying that no search results are found
+2026-05-22 12:11:43,529 - SearchResultsPage - WARNING - Results were found or wait failed: Message: 
+

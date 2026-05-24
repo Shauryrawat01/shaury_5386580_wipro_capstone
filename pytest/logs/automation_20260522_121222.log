@@ -1,0 +1,9 @@
+2026-05-22 12:12:22,841 - ExcelReader - INFO - Loading test data from: /home/shaury-rawat/Videos/99acres_capstone/utilities/../test_data/search_data.xlsx
+2026-05-22 12:12:22,846 - ExcelReader - INFO - Successfully loaded test data: {'mobile_number': '9897777124', 'location': 'mumbai'}
+2026-05-22 12:12:27,020 - root - INFO - Test Case 6: Empty Location Search (Negative) Starting
+2026-05-22 12:12:27,021 - root - INFO - Step 1: Clearing Search Box and Clicking Search
+2026-05-22 12:12:27,021 - HomePage - INFO - Entering location: 
+2026-05-22 12:12:29,470 - HomePage - INFO - Clicking Search button
+2026-05-22 12:12:29,647 - root - INFO - Verifying Search did not proceed to results
+2026-05-22 12:12:29,647 - SearchResultsPage - INFO - Verifying that no search results are found
+2026-05-22 12:12:29,677 - SearchResultsPage - WARNING - Property cards were found! Search failed to return zero results.

@@ -1,0 +1,11 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:45 Test Case 2: Property Search Flow Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:50 Step 2: Waiting for property listings to be visible
+[32mINFO    [0m SearchResultsPage:search_results_page.py:74 Verifying search results visibility
+[32mINFO    [0m SearchResultsPage:search_results_page.py:80 Search results are visible
+[32mINFO    [0m root:test_end_to_end_flow.py:53 Step 3: Applying filters (3 BHK, 2036)
+[32mINFO    [0m SearchResultsPage:search_results_page.py:114 Applying 3 BHK filter
+[32mINFO    [0m SearchResultsPage:search_results_page.py:126 Applying 2036 filter
+[32mINFO    [0m root:test_end_to_end_flow.py:59 Step 4: Checking if property card is visible
+[32mINFO    [0m SearchResultsPage:search_results_page.py:74 Verifying search results visibility
+[32mINFO    [0m SearchResultsPage:search_results_page.py:80 Search results are visible
+[32mINFO    [0m root:test_end_to_end_flow.py:61 Test Case 2: PASSED

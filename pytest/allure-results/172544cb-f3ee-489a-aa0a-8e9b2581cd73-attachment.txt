@@ -1,0 +1,6 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:212 Test Case 8: Special Character Search Starting
+[32mINFO    [0m HomePage:home_page.py:63 Clicking on Projects tab
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: !@#$%^&*()
+[32mINFO    [0m HomePage:home_page.py:90 Clicking Search button
+[32mINFO    [0m SearchResultsPage:search_results_page.py:87 Verifying that no search results are found
+[33mWARNING [0m SearchResultsPage:search_results_page.py:97 Property cards WERE found. Search did not return zero results.

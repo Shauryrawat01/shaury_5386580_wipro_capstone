@@ -1,0 +1,7 @@
+2026-05-22 13:21:15,936 - TestHomePage - INFO - Starting homepage validation test
+2026-05-22 13:21:15,937 - TestHomePage - INFO - Verifying page title
+2026-05-22 13:21:16,738 - TestHomePage - INFO - Page title is: India Real Estate Property Site - Buy Sell Rent Properties Portal - 99acres.com
+2026-05-22 13:21:16,738 - TestHomePage - INFO - Verifying Buy tab is displayed
+2026-05-22 13:21:16,849 - TestHomePage - INFO - Verifying Search box is displayed
+2026-05-22 13:21:16,946 - TestHomePage - INFO - Verifying Search button is displayed
+2026-05-22 13:21:17,002 - TestHomePage - INFO - Homepage elements validated successfully

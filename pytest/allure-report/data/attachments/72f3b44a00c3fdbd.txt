@@ -1,0 +1,7 @@
+[32mINFO    [0m TestHomePage:test_home_page.py:7 Starting homepage validation test
+[32mINFO    [0m TestHomePage:test_home_page.py:10 Verifying page title
+[32mINFO    [0m TestHomePage:test_home_page.py:12 Page title is: India Real Estate Property Site - Buy Sell Rent Properties Portal - 99acres.com
+[32mINFO    [0m TestHomePage:test_home_page.py:14 Verifying Buy tab is displayed
+[32mINFO    [0m TestHomePage:test_home_page.py:19 Verifying Search box is displayed
+[32mINFO    [0m TestHomePage:test_home_page.py:24 Verifying Search button is displayed
+[32mINFO    [0m TestHomePage:test_home_page.py:29 Homepage elements validated successfully

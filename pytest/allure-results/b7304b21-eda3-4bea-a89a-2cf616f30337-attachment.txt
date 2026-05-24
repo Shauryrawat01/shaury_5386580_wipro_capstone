@@ -1,0 +1,14 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:71 Test Case 3: View Number Flow Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:76 Step 1: Opening required property (clicking third result)
+[32mINFO    [0m SearchResultsPage:search_results_page.py:133 Clicking on the third property result
+[32mINFO    [0m SearchResultsPage:search_results_page.py:155 Switching to the newly opened tab
+[32mINFO    [0m root:test_end_to_end_flow.py:80 Step 2 & 3: Finding and Clicking 'View Number' button
+[32mINFO    [0m SearchResultsPage:search_results_page.py:234 Clicking 'OK, Got it' button
+[32mINFO    [0m SearchResultsPage:search_results_page.py:244 Successfully clicked 'OK, Got it'
+[32mINFO    [0m SearchResultsPage:search_results_page.py:161 Clicking on 'View Number' button
+[32mINFO    [0m root:test_end_to_end_flow.py:84 Step 4: Waiting for contact details popup
+[32mINFO    [0m SearchResultsPage:search_results_page.py:183 Verifying if contact details popup is visible
+[32mINFO    [0m SearchResultsPage:search_results_page.py:189 Contact details popup is visible
+[32mINFO    [0m root:test_end_to_end_flow.py:87 Step 5: Capturing final result screenshot
+[32mINFO    [0m root:test_end_to_end_flow.py:95 Screenshot saved successfully at: screenshots/result_screenshots/view_number/view_number_result_20260523-101406.png
+[32mINFO    [0m root:test_end_to_end_flow.py:98 Test Case 3: PASSED

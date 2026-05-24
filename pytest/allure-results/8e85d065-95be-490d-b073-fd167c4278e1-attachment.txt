@@ -1,0 +1,10 @@
+[32mINFO    [0m root:test_end_to_end_flow.py:113 Test Case 4: Rent Search Flow Starting
+[32mINFO    [0m root:test_end_to_end_flow.py:114 Step 1: Clicking Rent Tab
+[32mINFO    [0m HomePage:home_page.py:57 Clicking on Rent tab
+[32mINFO    [0m root:test_end_to_end_flow.py:117 Step 2 & 3: Entering Location: mumbai
+[32mINFO    [0m HomePage:home_page.py:69 Entering location: mumbai
+[32mINFO    [0m root:test_end_to_end_flow.py:120 Step 4: Selecting Location from suggestions
+[32mINFO    [0m HomePage:home_page.py:80 Selecting location from suggestions
+[1m[31mERROR   [0m HomePage:home_page.py:87 No suggestion found or already selected: 'NoneType' object has no attribute 'is_displayed'
+[32mINFO    [0m root:test_end_to_end_flow.py:123 Step 5: Clicking Search Button
+[32mINFO    [0m HomePage:home_page.py:90 Clicking Search button
